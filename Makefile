@@ -1,5 +1,5 @@
 CC     := gcc
-CFLAGS := -std=gnu99 -Wall -Wextra -Werror -Wno-unused-parameter -Wno-unused-variable
+CFLAGS := -std=gnu99 -Wall -Wextra -Werror
 
 
 all: main.c
