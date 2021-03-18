@@ -58,7 +58,7 @@ int main ( int argc, char *argv[] )
         dividend = rest;
         fflush ( stdout );
 
-        if ( limitless && !limit-- ) {
+        if ( limitless && !--limit ) {
             break;
         }
 
